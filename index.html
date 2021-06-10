@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.82.0">
+    <title>La Taqueria</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    
+    <!-- Custom styles for this template -->
+    <link href="carousel/carousel.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="carousel/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Halant:wght@300;400;500;600&family=Nunito+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">La Taqueria</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#gerechten">Gerechten</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#over_ons">Over ons</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item carousel-photo1 active">
+
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>La Taqueria</h1>
+            <p>Ontdek onze Mexicaanse sfeer!</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Meer over &raquo;</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item carousel-photo2">
+
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>La Taqueria</h1>
+            <p>Ontdek onze Mexicaanse gerechten!</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Meer over &raquo;</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item carousel-photo3">
+
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>La Taqueria</h1>
+            <p>Ontdek waar we nog te vinden zijn!</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Meer over &raquo;</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row" id="gerechten">
+      <div class="col-lg-4">
+        <img class="circular--square" src="assets/img/taco_square.jpg"/>
+
+        <h2>Taco's</h2>
+        <p>Onze taco’s zijn gemaakt met biologisch en glutenvrij tortillas, gecombineerd met vullingen van diverse Mexicaanse smaken.</p>
+        <p><a class="btn btn-secondary" href="#">Meer over &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img class="circular--square" src="assets/img/nacho's_square.jpg"/>
+
+        <h2>Nacho's</h2>
+        <p>Niet alleen kan je de typische nacho’s met gesmolten kaas vinden bij ons. Maar ook met zelfgemaakte guacamole en pico de gallo. Of heb je meer zin in een andere Mexicaanse wijze met tomatensaus en koriander?</p>
+        <p><a class="btn btn-secondary" href="#">Meer over &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img class="circular--square" src="assets/img/drinken_square.jpg"/>
+
+        <h2>Drinken</h2>
+        <p>Ook serveren we dranken die typisch of afkomstig zijn uit Mexico. Probeer eens het Mexicaanse frisdrank jarritos! Deze verkopen we in verschillende smaken.</p>
+        <p><a class="btn btn-secondary" href="#">Meer over &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider" id="over_ons">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Wie zijn wij?</h2>
+        <p class="lead">La Taqueria is een Mexicaanse foodtruck. We willen graag de lekkere Mexicaanse keuken promoten en aantrekkelijk maken. Dit willen we bereiken door een gezellige, klantvriendelijk en milieubewuste locatie te zijn.</p>
+      </div>
+      <div class="col-md-5">
+        <img src="assets/img/taco2.jpg" width="500" height="500">
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Onze Mexicaanse sfeer!</h2>
+        <p class="lead">De foodtruck en omgeving zal de Mexicaanse cultuur uitstralen. Er gaat Mexicaanse muziek gespeeld worden, maar ook zal de omgeving met Mexicaanse voorwerpen versierd worden. Dit zowel met lichtjes, cactussen, sombrero’s, … maar ook zeteltjes en nog meer!</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+		<img src="assets/img/sfeer3.jpg" width="500" height="500">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-end"><a href="#">Back to top</a></p>
+    <p>&copy; 2017–2021 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+  </footer>
+</main>
+
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+      
+  </body>
+</html>

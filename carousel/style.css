@@ -1,0 +1,91 @@
+/* =========================================
+    Default Theme
+    ----------------------------------------
+    Fonts: Halant & Nunito Sans
+        font-family: 'Halant', serif;
+        font-family: 'Nunito Sans', sans-serif;
+    ----------------------------------------
+    Colors:
+        Oranje:              #ee7523 // 238,117,35
+        Aqua:                #009d92 // 0,157,146 // licht #A9D8D5;
+        Purple:              #7e398e // 126,57,142
+        Grijs:               #76777a // 118,119,122
+        White:               #fff
+        Black:               #000   
+============================================ */
+/* =========================================
+    Global
+============================================ */
+
+*{
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.carousel-photo1{
+    background: linear-gradient(
+        rgba(118,119,112,0.45), rgba(118,119,122,0.2)),
+        url(../assets/img/carousel_sfeer.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.carousel-photo2{
+    background: linear-gradient(
+        rgba(118,119,112,0.45), rgba(118,119,122,0.2)),
+        url(../assets/img/carousel_gerechten.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.carousel-photo3{
+    background: linear-gradient(
+        rgba(118,119,112,0.45), rgba(118,119,122,0.2)),
+        url(../assets/img/carousel_plaats.jpeg) no-repeat center center;
+    background-size: cover;
+}
+
+.circular--square {
+    border-radius: 50%;
+    width: 140px;
+    height: auto;
+}
+
+.navbar{
+    background-color: rgba(118,119,122,0.15);
+    padding-bottom: 0em;
+}
+
+.navbar-brand, .nav-link{
+    color: #009d92 !important;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+h1{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+h2{
+    font-family: 'Nunito Sans', sans-serif;
+    color: #009d92;
+    padding-top: 1rem;
+}
+
+p{
+    font-family: 'Halant', serif;
+}
+
+.btn{
+    background-color: #009d92;
+    border: none !important;
+}
+
+.btn:hover{
+    background-color: #A9D8D5;
+
+}
+/* =========================================
+    Responsive (media quarys)
+============================================ */
